@@ -165,7 +165,7 @@ textarea:focus {
 
 @font-face {
     font-family: Small;
-    src: url(/fonts/spacetime.ttf) format('truetype');  
+    src: url("../fonts/spacetime-regular.ttf") format('truetype');  
 }
 
 .demonstrar{
