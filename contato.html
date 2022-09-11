@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zeus Brasil</title>
+        <link rel="icon" href="img/Logo Victor Miozzo.svg">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>
+                <a href="index.html">
+                    <img src="img/Logo Victor Miozzo.svg" alt="logo pichau">
+                </a>
+            </h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+            </ul>
+        </div>
+    </nav>
+
+  <main>
+    <div class="container clearfix">
+        <div class="col-12">
+            <form>
+                <label for="nome">Informe seu Nome</label>
+                <input type="text" name="nome" id="nome"
+                    placeholder="Nome" required>
+
+                <label for="email">Informe seu E-mail</label>
+                <input type="email" name="email" id="email" 
+                    placeholder="Informe seu E-mail" required="true">
+
+                <label>Informe sua Turma</label>
+                <div class="form-group">
+                    <input type="radio" name="turma" id="turma_1A"
+                    value="1A" checked>
+                    <label for="turma_1A">1A</label>
+                    <input type="radio" name="turma" id="turma_1B"
+                        value="1B">
+                        <label for="turma_1B">1B</label>
+                </div>
+
+                <label for="nome">Motivo</label>
+                <select name="motivo" id="motivo" required>
+                    <option value="">Selecione o Motivo</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="problema">Relatar Ploblema</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <label for="message">Informe sua message</label>
+                <textarea name="message" id="message" rows="5"></textarea>
+
+                <!--<input type="submit" value="Enviar"-->
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+
+<script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("e4XfAeS_ZNAD56Tll");
+})();
+</script>
+
+<script src="main.js"></script>
+
+
+
+
+
+
+
+
+
+<footer>
+    <div class="container clearfix">
+        </div>
+    </div>
+    <div class="container clearfix center">
+        <p>Instituto Federal de Educação Ciência e Tecnologia Catarinense - Campus Videira</p>
+        <p>Rodovia SC 135, km 125 - Bairro Campo Experimental - CEP 89564-590 - Videira - SC - Fone: (49) 3533-4900</p>
+    </div>
+</footer>
+
+</body>
+</html>
+
+</body>
+</html>
